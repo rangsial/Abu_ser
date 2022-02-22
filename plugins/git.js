@@ -7,9 +7,12 @@ const Lang = Language.getString('wallpaper');
 
 Asena.addCommand({pattern: 'git', fromMe: false, desc: "Gives github link of the bot"}, (async (message, match) => {
 
-    var skl = await axios.get("https://i.ibb.co/mcVjXBN/IMG-20220120-WA0089.jpg", { responseType: 'arraybuffer' })
+    var skl = await axios.get("Config.LOGOSK { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(skl.data), MessageType.image, {mimetype: Mimetype.png, caption: `*✌︎➪𝑨𝑩𝑼 𝑺𝑬𝑹 𝑩𝑶𝑻☜︎︎︎✌︎*
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, contextInfo: {mentionedJid: message.mention}, caption: `╭──────────────────╮
+
+   ` + config.BOT + `
+
 ᴄʀᴇᴀᴛᴏʀ ɴᴜᴍʙᴇʀ: wa.me/917025994178
 
 Tʜɪs ʙᴏᴛ Oᴡɴᴇʀ Nᴀᴍᴇ : ❤️🥰 ✌︎Aʙᴜ Sᴇʀ Bᴏᴛ ➪ Aʙᴜ»:-Jᴀsɪʟ ᴍᴜʜᴀᴍᴍᴇᴅ
