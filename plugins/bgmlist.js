@@ -12,7 +12,7 @@ Asena.addCommand({pattern: 'bgm', fromMe: false, desc: 'send all bgm commands'},
 
     var r_text = new Array ();
     
-    r_text[0] = Config.LG_LOGO
+    r_text[0] = Config.LOGOSK
     
     var i = Math.floor(1*Math.random())
 
